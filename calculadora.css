@@ -1,0 +1,43 @@
+body {
+    background-image: url('https://i.pinimg.com/564x/d0/0a/e0/d00ae0d77a4d0a17dc9e082c399c0771.jpg'); 
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(124, 88, 116, 0.386); 
+    border: 5px solid #40264b; 
+    border-radius: 100px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+input[type="text"] {
+    width: 67%;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: 3px solid #c29bd2;
+    border-radius: 77px;
+}
+
+button {
+    width: 45%;
+    padding: 10px;
+    border: none;
+    border-radius: 65px;
+    font-weight: bold;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: #550363; 
+    margin: 5px;
+}
+
+button.limpiar {
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(19,17,115,1) 61%, rgba(148,187,233,1) 100%);
+}
+
