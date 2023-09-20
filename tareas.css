@@ -1,0 +1,25 @@
+body {
+    background-image: url('https://i.pinimg.com/564x/1b/c7/09/1bc709f54ad0d62a4b5a37a9a6aa7ddd.jpg'); 
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+button {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 65px;
+    font-weight: bold;
+    background: radial-gradient(circle, rgb(164, 168, 114) 0%, rgb(168, 157, 55) 100%);
+    color: #f8e6fb; 
+    margin: 5px;
+}
+
+  
+  
+   

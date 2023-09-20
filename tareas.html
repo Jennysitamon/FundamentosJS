@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tareas.css">
+
+    <title>Lista de tareas con Javascript</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tareas en JavitaScript</h1>
+        <div id="formulario">
+            <h2>Ingresa las tareas✔</h2>
+            <textarea name="" id="inputTarea" cols="30" rows="10"></textarea>
+            <h3>Hora</h3>
+            <input type="time" name="" id="tiempo">
+            <button onclick="addTarea()">Agregar tareas</button>
+        </div>
+        <div id="tareas">
+            <h2>Mis tareas</h2>
+            <ul></ul>
+        </div>
+    </div>
+    <script src="./tareas.js"></script>
+</body>
+</html>
