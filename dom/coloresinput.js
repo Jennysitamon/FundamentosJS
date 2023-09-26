@@ -7,7 +7,7 @@ function getColor() {
     const pinkVal = Math.floor((pink.value / 100) * 255);
     const purpleVal = Math.floor((purple.value / 100) * 255);
     const goldenVal = Math.floor((golden.value / 100) * 255);
-    const alpha = pink.value / 100;  // Valor de transparencia entre 0 y 1
+    const alpha = pink.value / 100; 
     return `rgba(${pinkVal}, ${purpleVal}, ${goldenVal}, ${alpha})`;
 }
 
@@ -17,6 +17,6 @@ function setColor() {
 
 setColor();
 
-pink.addEventListener('input', setColor);  // Cambiado 'change' a 'input'
-purple.addEventListener('input', setColor);  // Cambiado 'change' a 'input'
-golden.addEventListener('input', setColor);  // Cambiado 'change' a 'input'
+pink.addEventListener('input', setColor);  
+purple.addEventListener('input', setColor);  
+golden.addEventListener('input', setColor);  
