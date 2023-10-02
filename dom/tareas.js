@@ -46,6 +46,7 @@ function getButton(e){
                     alertActual.classList = [];
                     alertActual.classList.add('alert', 'alert-success');
                     break;
+                    
         case 'x':
                     alertActual.remove();
                     break;
